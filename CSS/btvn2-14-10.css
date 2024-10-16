@@ -1,0 +1,17 @@
+.ha{
+   padding: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(66, 68, 70);
+}
+.damnhat{
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+.nutduoi{
+    padding: 10px;
+    background-color: rgb(78, 156, 156);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+}
