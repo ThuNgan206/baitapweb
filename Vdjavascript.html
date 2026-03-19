@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ví dụ về javascript</title>
+</head>
+<body>
+    <script>
+        //hàm binh thường
+         function tong2so(a,b){
+            let tong = a+b;
+            document.writeln(a+" + "+b+" = "+tong);
+        }
+        tong2so(5,10);
+        //chuyển thành hàm mũi tên 
+        var tong2so2 = (a,b) => {
+            let tong = a+b;
+            document.writeln("<br>"+a+" + "+b+" = "+tong);
+        }
+        tong2so2(10,20);
+        //hàm bình thường
+        function hieu2so(a,b){
+            let hieu = a-b;
+            document.writeln("<br>"+a+" - "+b+" = "+hieu);
+        }
+        hieu2so(20,5);
+        //chuyển thành hàm mũi tên
+        var hieu2so2 = (a,b) => {
+            let hieu = a-b;
+            document.writeln("<br>"+a+" - "+b+" = "+hieu);
+        }
+        hieu2so2(30,10);
+        //hàm bình thường
+        function tich2so(a,b){
+            let tich = a*b;
+            document.writeln("<br>"+a+" * "+b+" = "+tich);
+        }
+        tich2so(5,6);
+        //chuyển thành hàm mũi tên
+        var tich2so2 = (a,b) => {
+            let tich = a*b;
+            document.writeln("<br>"+a+" * "+b+" = "+tich);
+        }
+        tich2so2(7,8);
+        //hàm bình thường
+        function thuong2so(a,b){
+            if (b != 0){
+                let thuong = a/b;
+                document.writeln("<br>"+a+" / "+b+" = "+thuong);
+            } else {
+                document.writeln("<br>Không thể chia cho 0");
+            }
+        }
+        thuong2so(6,6);
+        //chuyển thành hàm mũi tên
+        var thuong2so2 = (a,b) => {
+            if (b != 0){
+                let thuong = a/b;
+                document.writeln("<br>"+a+" / "+b+" = "+thuong);
+            } else {
+                document.writeln("<br>Không thể chia cho 0");
+            }
+        }
+    </script>
+</body>
+</html>
