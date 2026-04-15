@@ -1,0 +1,299 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header{
+    width: 100%;
+    padding-top: 15px;
+}
+
+.head_col_left{
+    width: 50%;
+    float: left;
+}
+
+.head_col_right{
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+
+.head_col_left a{
+    color: #111;
+    display: block;
+    padding-top: 8px;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+
+.bt{
+    padding: 5px;
+    margin-bottom: 8px;
+    border: none;
+    background-color: white;
+}
+
+.bt input[type="button"]{
+    padding: 6px 14px;
+    background-color: #6E696A;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bt input[type="button"]:hover{
+    background-color: #555;
+}
+
+
+.head_col_right ul{
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.head_col_right ul li{
+    display: inline-block;
+    padding: 0 2px;
+}
+
+.head_col_right ul li a{
+    color: blue;
+    font-size: 13px;
+}
+
+
+#menu{
+    list-style: none;
+    background-color: #6E696A;
+    border: 1px solid #333;
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+#menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 10px;
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.body{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.body_col_left{
+    width: 73%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+.body_col_right{
+    width: 23%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+.content{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.content h3{
+    color: #AAA;
+    font-size: 18px;
+    font-weight: normal;
+    border-bottom: 1px solid #AAA;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+}
+
+
+.img_product{
+    float: left;
+    padding: 10px;
+    width: 35%;
+}
+
+.content_product{
+    float: left;
+    width: 65%;
+    padding: 10px;
+}
+
+
+.content_product h4{
+    color: #00008B;
+    margin-bottom: 8px;
+}
+
+
+.list_img{
+    width: 100%;
+    border: 1px solid #AAA;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.list_img img{
+    width: 15%;
+    display: inline-block;
+    margin: 2px;
+}
+
+
+.news{
+    list-style-type: none;
+}
+
+.news li{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 2px dashed #CCC;
+}
+
+.news li h5{
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.news li a{
+    color: blue;
+}
+
+#last_news{
+    border-bottom: none;
+}
+
+
+.banner_contact{
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: #6E696A;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+
+.link_list{
+    list-style: disc;     
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+.link_list li{
+    padding: 3px 0;
+}
+
+.link_list li a{
+    color: blue;
+    font-size: 14px;
+}
+
+
+.banner{
+    display: block;         
+    width: 100%;
+    height: 60px;
+    background-color: #6E696A;
+    margin-bottom: 10px;
+    object-fit: cover;     
+}
+
+
+.footer{
+    width: 100%;
+    background-color: #EEEEEE;
+    border-top: 1px solid #CCC;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.footer_left{
+    float: left;
+    width: 50%;
+}
+
+
+.footer_left ul{
+    list-style: none;       
+    padding-left: 0;
+}
+
+.footer_left ul li{
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer_right{
+    float: right;
+    width: 45%;
+    text-align: right;
+}
+
+.footer_right p{
+    font-size: 14px;
+    color: #333;
+}
+
+
+.footer_link{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 8px;
+}
+
+.footer_link li{
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.footer_link li a{
+    color: blue;
+    font-size: 14px;
+}
